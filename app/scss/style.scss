@@ -379,7 +379,7 @@
         width: 100%;
         &::before {
             position: absolute;
-            font-family: 'icomoon';
+            font-family: "icomoon";
             color: #fff;
             font-size: 14px;
             left: 18px;
@@ -440,7 +440,7 @@
     &::before {
         content: "\f044";
         position: absolute;
-        font-family: 'icomoon';
+        font-family: "icomoon";
         top: 15px;
         left: 35px;
     }
@@ -453,10 +453,10 @@
     font-size: 18px;
 }
 
-.fancybox-button svg path{
+.fancybox-button svg path {
     color: #fff;
 }
-  
+
 // end modal
 
 // start search
@@ -1456,7 +1456,6 @@ button.icon-unsorted {
     background-color: $green;
 }
 
-
 .product-one__social {
     a {
         width: 54px;
@@ -1501,11 +1500,6 @@ button.icon-unsorted {
     background-color: #fff;
     margin-bottom: 28px;
 }
-
-
-
-
-
 
 .product-one__more-icons {
     display: flex;
@@ -1604,6 +1598,36 @@ button.icon-unsorted {
     display: flex;
     justify-content: space-between;
     padding: 30px 0;
+    .jq-selectbox__select {
+        height: 26px;
+        width: 82px;
+        padding: 0 10px;
+        line-height: 26px;
+        border: 1px solid #d6d6d6;
+        border-bottom-color: #d6d6d6;
+        border-radius: 0px;
+        background: #fff;
+        box-shadow: none;
+        font-family: 'Roboto-Regular', sans-serif;
+        font-size: 13px;
+        color: #70838d;
+        text-shadow: none;
+    }
+    .jq-selectbox__trigger-arrow {
+        border: none;
+        top: 0px;
+        right: 15px;
+        line-height: 26px;
+        font-size: 13px;
+        &::before {
+            content: "\f0d7";
+            font-family: "icomoon";
+            color: $green;
+        }
+    }
+    .jq-selectbox__trigger {
+        border-left: none;
+    }
 }
 
 .price__product {
@@ -1617,7 +1641,7 @@ button.icon-unsorted {
         margin-bottom: 7px;
         box-shadow: 0px 1px 2px 0px rgba(69, 90, 100, 0.75);
         border: none;
-        font-family: 'Roboto-Regular', sans-serif !important;
+        font-family: "Roboto-Regular", sans-serif !important;
         background-color: $text;
         color: #fff;
         font-size: 16px;
@@ -1630,7 +1654,7 @@ button.icon-unsorted {
         &::before {
             margin-right: 8px;
             font-weight: 400;
-            font-family: 'icomoon';
+            font-family: "icomoon";
         }
     }
     .icon-shopping-cart {
@@ -1681,27 +1705,27 @@ button.icon-unsorted {
         }
     }
     .icon-meh-o {
-        background-image: url('../images/awards/award-orange.png');
+        background-image: url("../images/awards/award-orange.png");
         width: 34px;
         height: 37px;
     }
     .icon-pagelines {
-        background-image: url('../images/awards/award-red.png');
+        background-image: url("../images/awards/award-red.png");
         width: 34px;
         height: 37px;
     }
     .icon-bolt {
-        background-image: url('../images/awards/award-blue.png');
+        background-image: url("../images/awards/award-blue.png");
         width: 34px;
         height: 37px;
     }
     .icon-foursquare {
-        background-image: url('../images/awards/award-green.png');
+        background-image: url("../images/awards/award-green.png");
         width: 34px;
         height: 37px;
     }
     .icon-yen {
-        background-image: url('../images/awards/award-grey.png');
+        background-image: url("../images/awards/award-grey.png");
         width: 34px;
         height: 37px;
     }
@@ -1721,7 +1745,7 @@ button.icon-unsorted {
         color: #263238;
         margin-right: 15px;
         &::before {
-            font-family: 'icomoon';
+            font-family: "icomoon";
             content: "\f07a";
             color: #a6b5bb;
             padding-right: 20px;
@@ -1768,7 +1792,7 @@ button.icon-unsorted {
 }
 
 .page-404__404 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 800;
     font-size: 300px;
     padding-top: 70px;
@@ -1778,7 +1802,7 @@ button.icon-unsorted {
     &::after {
         content: "";
         position: absolute;
-        background-image: url('../images/page-404.png');
+        background-image: url("../images/page-404.png");
         background-repeat: no-repeat;
         width: 160px;
         height: 301px;
@@ -1788,7 +1812,7 @@ button.icon-unsorted {
 
 .page-404__title {
     margin-bottom: 30px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 30px;
 }
@@ -1825,7 +1849,7 @@ button.icon-unsorted {
         margin-top: 40px;
         margin-bottom: 15px;
     }
-    p{
+    p {
         margin-bottom: 40px;
     }
 }
@@ -1869,13 +1893,13 @@ button.icon-unsorted {
     padding-bottom: 20px;
     position: relative;
     font-size: 20px;
-    font-family: 'Roboto', sans-serif !important;
+    font-family: "Roboto", sans-serif !important;
     @include f500;
     color: $bg;
     padding-left: 40px;
     margin-bottom: 20px;
     &::before {
-        font-family: 'icomoon';
+        font-family: "icomoon";
         color: $green;
         font-size: 24px;
         position: absolute;
@@ -2018,6 +2042,16 @@ button.icon-unsorted {
 
 .page-box__content {
     padding: 30px 35px 80px;
+    button {
+        margin-left: 258px;
+        @include f500;
+        padding: 15px 5px;
+        width: 110px;
+        border: none;
+        background-color: $green;
+        color: #fff;
+        cursor: pointer;
+    }
 }
 
 .settings__line {
@@ -2026,7 +2060,7 @@ button.icon-unsorted {
     justify-content: space-between;
     label {
         color: #444;
-        width: 260px;
+        min-width: 260px;
         align-items: center;
     }
     input {
@@ -2049,22 +2083,36 @@ button.icon-unsorted {
         background-color: #f9f9f9;
         border: 1px solid #dedede;
     }
-}
-
-.settings__btn {
-    text-align: center;
-    width: 50%;
-    position: relative;
-    button {
-        position: absolute;
-        right: 30px;
-        @include f500;
-        padding: 15px 5px;
-        width: 110px;
+    .jq-selectbox {
+        width: 100%;
+    }
+    .jq-selectbox__select {
+        height: 40px;
+        padding: 0px 18px;
+        border: 1px solid #d7d7d7;
+        border-bottom-color: #d7d7d7;
+        border-radius: 0px;
+        background: #f9f9f9;
+        box-shadow: none;
+        font-family: "Roboto-Regular", sans-serif;
+        color: #707070;
+        text-shadow: none;
+        line-height: 40px;
+    }
+    .jq-selectbox__trigger-arrow {
         border: none;
-        background-color: $green;
-        color: #fff;
-        cursor: pointer;
+        top: 0;
+        right: 20px;
+        line-height: 40px;
+        font-size: 15px;
+        &::before {
+            content: "\f0d7";
+            font-family: "icomoon";
+            color: $green;
+        }
+    }
+    .jq-selectbox__trigger {
+        border-left: none;
     }
 }
 
@@ -2116,7 +2164,7 @@ button.icon-unsorted {
 .profile-off {
     &::before {
         background-color: $red;
-    }    
+    }
 }
 
 .profile__aside-btn {
@@ -2137,7 +2185,7 @@ button.icon-unsorted {
     box-shadow: 0px 1px 2px 0px rgba(69, 90, 100, 0.75);
     &::before {
         content: "\f003";
-        font-family: 'icomoon';
+        font-family: "icomoon";
         position: absolute;
         left: 50px;
         top: 17px;
@@ -2173,7 +2221,6 @@ button.icon-unsorted {
 .profile__items {
     display: flex;
     border: 1px solid #dedede;
-
 }
 
 .profile__item {
@@ -2206,7 +2253,7 @@ button.icon-unsorted {
 .profile-settings {
     .product-one__tabs.settings__tabs {
         .tabs span {
-            font-family: 'Roboto', sans-serif !important;
+            font-family: "Roboto", sans-serif !important;
             font-weight: 500;
             position: relative;
             &.active::before {
@@ -2218,10 +2265,10 @@ button.icon-unsorted {
                 left: 27px;
                 color: #d0d0d0;
                 font-size: 14px;
-                font-family: 'icomoon';
+                font-family: "icomoon";
             }
         }
-    } 
+    }
 }
 
 .personal__box {
@@ -2272,13 +2319,147 @@ button.icon-unsorted {
         display: block;
         height: 15px;
         border-radius: 3px;
-        background-image: url('../images/pro-bar.png');
+        background-image: url("../images/pro-bar.png");
         background-repeat: repeat;
-
     }
 }
 
 // end profile
 
+// start upload
+
+.upload__inner {
+    background-color: #fff;
+    border: 1px solid #d7d7d7;
+    margin-bottom: 110px;
+    button {
+        color: #fff;
+        background-color: $green;
+        border: none;
+        padding: 15px 36px;
+        margin-left: 175px;
+    }
+}
+
+.upload__inner-title {
+    padding: 16px 35px 18px;
+    font-size: 24px;
+    @include f500;
+    color: $bg;
+    border-bottom: 1px solid #d7d7d7;
+    margin-bottom: 40px;
+}
+
+.upload__inner-content {
+    margin-bottom: 30px;
+    padding-left: 45px;
+    padding-right: 50px;
+}
+
+.upload-line {
+    margin-bottom: 25px;
+    display: flex;
+    label {
+        padding-top: 5px;
+        min-width: 175px;
+        padding-right: 15px;
+        color: #444;
+        span {
+            color: $green;
+        }
+        &::placeholder {
+            color: #707070;
+        }
+    }
+    select,
+    input,
+    textarea {
+        width: 100%;
+        display: block;
+        border: 1px solid #d7d7d7;
+        height: 40px;
+        background-color: #f9f9f9;
+        padding: 0px 18px;
+    }
+    textarea {
+        resize: none;
+        height: 150px;
+        padding: 8px 18px;
+    }
+    .jq-file__browse {
+        top: 5px;
+        right: auto;
+        left: 9px;
+        padding: 0 12px;
+        line-height: 26px;
+        font-size: 12px;
+        color: #444;
+        outline: none;
+        border: 1px solid #d7d7d7;
+        border-left: 1px solid #d7d7d7;
+        border-radius: 0;
+        background: #fff;
+        box-shadow: none;
+        text-shadow: none;
+    }
+    .jq-file {
+        width: 100%;
+        padding: 0px 18px;
+        box-shadow: none;
+        border-radius: 0px;
+        height: 40px;
+        outline: none;
+        background-color: #f9f9f9;
+        border: 1px solid #d7d7d7;
+    }
+    .jq-file__name {
+        box-sizing: border-box;
+        width: 100%;
+        height: 40px;
+        padding: 0;
+        margin-left: 100px;
+        border: none;
+        outline: none;
+        border-bottom-color: transparent;
+        border-radius: 0px;
+        background: transparent;
+        box-shadow: none;
+        font-size: 12px;
+        color: #707070;
+        line-height: 40px;
+    }
+    .jq-selectbox {
+        width: 100%;
+    }
+    .jq-selectbox__select {
+        height: 40px;
+        padding: 0px 18px;
+        border: 1px solid #d7d7d7;
+        border-bottom-color: #d7d7d7;
+        border-radius: 0px;
+        background: #f9f9f9;
+        box-shadow: none;
+        font-family: "Roboto-Regular", sans-serif;
+        color: #707070;
+        text-shadow: none;
+        line-height: 40px;
+    }
+    .jq-selectbox__trigger-arrow {
+        border: none;
+        top: 0;
+        right: 20px;
+        line-height: 40px;
+        font-size: 15px;
+        &::before {
+            content: "\f0d7";
+            font-family: "icomoon";
+        }
+    }
+    .jq-selectbox__trigger {
+        border-left: none;
+    }
+}
+
+// end upload
 
 @import "media";
