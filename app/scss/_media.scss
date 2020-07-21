@@ -494,12 +494,11 @@
     }
     .header__box {
         transition: all .5s;
-        top: -100%;
+        left: 100%;
         height: 70px;
         position: absolute;
         &.active {
             left: 70px;
-            top: 0;
             background-color: #fff;
             z-index: 2;
         }
